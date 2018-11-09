@@ -1,0 +1,42 @@
+<!-- 
+	File: tictactoe.html
+	Author: Mitchell Che
+	Date Created: 11/8/2018
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Tic Tac Toe</title>
+	<script type="text/javascript" src="./tictactoe.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet"> 
+	<link rel = "stylesheet" type="text/css" href="./tictactoe.css">
+</head>
+<body>
+	<h1>Tic Tac Toe</h1>
+	<table>
+		<tr class = "col">
+			<td><input type = "button" class = "square disable" onclick= "set(this.id);" id = "one"></td>
+			<td><input type = "button" class = "square disable" onclick= "set(this.id);" id = "two"></td>
+			<td><input type = "button" class = "square disable" onclick= "set(this.id);" id = "three"></td>
+		</tr>
+		<tr class = "col">
+			<td><input type = "button" class = "square disable" onclick= "set(this.id);" id = "four"></td>
+			<td><input type = "button" class = "square disable" onclick= "set(this.id);" id = "five"></td>
+			<td><input type = "button" class = "square disable" onclick= "set(this.id);" id = "six"></td>
+		</tr>
+		<tr class = "col">
+			<td><input type = "button" class = "square disable" onclick= "set(this.id);" id = "seven"></td>
+			<td><input type = "button" class = "square disable" onclick= "set(this.id);" id = "eight"></td>
+			<td><input type = "button" class = "square disable" onclick= "set(this.id);" id = "nine"></td>
+		</tr>
+	</table>
+
+	<div>
+		<input type = "button" id = "reset" onclick = "startGame();" value = "Start Game">
+	</div>
+	<p>Click Button to Start</p>
+	<p>Mitchell Che - mrc3759</p>
+</body>
+</html>

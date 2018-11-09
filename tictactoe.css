@@ -1,0 +1,62 @@
+/* 
+    File: tictactoe.css
+    Author: Mitchell Che
+    Date Created: 11/8/2018
+*/
+body{
+    background-color: #90AFC5;
+}
+table {
+    margin: auto;
+    padding:3px;
+    width: 580px;
+    background-color: #2A3132;
+    border-radius: 8px;
+}
+h1{
+    font-family: "Fira Sans";
+    text-align: center;
+    font-size: 50px;
+}
+.square{
+    height: 180px;
+    width: 180px;
+    margin: 5px;
+    background-color: #336B87;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 180px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 120px;
+    color: floralwhite;
+    border-radius: 5px;
+}
+
+div{
+    padding-top:50px;
+    text-align: center;
+    font-family: "Fira Sans";
+}
+
+#reset{
+    width:120px;
+    background-color: #336B87;
+    color:white;
+    padding:15px;
+    border:0.5px solid #2A3132;
+    border-radius: 5px;
+    cursor:pointer;
+    margin: 10px;
+    font-family: "Fira Sans";
+}
+#reset:hover{
+    background-color: #437B97;
+}
+.enable:hover{
+    background-color: #437B97;
+    cursor: pointer;
+}
+p{
+    text-align: center;
+    font-family: "Fira Sans";
+}
